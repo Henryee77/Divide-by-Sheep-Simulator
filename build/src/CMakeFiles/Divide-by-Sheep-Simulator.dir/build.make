@@ -83,11 +83,26 @@ src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.s"
 	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project\Divide-by-Sheep-Simulator\src\Block.cpp -o CMakeFiles\Divide-by-Sheep-Simulator.dir\Block.cpp.s
 
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/flags.make
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj: ../src/Map.cpp
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj"
+	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj -MF CMakeFiles\Divide-by-Sheep-Simulator.dir\Map.cpp.obj.d -o CMakeFiles\Divide-by-Sheep-Simulator.dir\Map.cpp.obj -c D:\project\Divide-by-Sheep-Simulator\src\Map.cpp
+
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.i"
+	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\project\Divide-by-Sheep-Simulator\src\Map.cpp > CMakeFiles\Divide-by-Sheep-Simulator.dir\Map.cpp.i
+
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.s"
+	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\project\Divide-by-Sheep-Simulator\src\Map.cpp -o CMakeFiles\Divide-by-Sheep-Simulator.dir\Map.cpp.s
+
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/flags.make
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: ../src/Simulator.cpp
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj"
 	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj -MF CMakeFiles\Divide-by-Sheep-Simulator.dir\Simulator.cpp.obj.d -o CMakeFiles\Divide-by-Sheep-Simulator.dir\Simulator.cpp.obj -c D:\project\Divide-by-Sheep-Simulator\src\Simulator.cpp
 
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.i: cmake_force
@@ -102,7 +117,7 @@ src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj: src/CMakeFiles/Divide
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj: ../src/main.cpp
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj"
 	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj -MF CMakeFiles\Divide-by-Sheep-Simulator.dir\main.cpp.obj.d -o CMakeFiles\Divide-by-Sheep-Simulator.dir\main.cpp.obj -c D:\project\Divide-by-Sheep-Simulator\src\main.cpp
 
 src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.i: cmake_force
@@ -116,6 +131,7 @@ src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.s: cmake_force
 # Object files for target Divide-by-Sheep-Simulator
 Divide__by__Sheep__Simulator_OBJECTS = \
 "CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.obj" \
+"CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj" \
 "CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj" \
 "CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj"
 
@@ -123,13 +139,14 @@ Divide__by__Sheep__Simulator_OBJECTS = \
 Divide__by__Sheep__Simulator_EXTERNAL_OBJECTS =
 
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.obj
+src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/build.make
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/linklibs.rsp
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/objects1.rsp
 src/Divide-by-Sheep-Simulator.exe: src/CMakeFiles/Divide-by-Sheep-Simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Divide-by-Sheep-Simulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\project\Divide-by-Sheep-Simulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Divide-by-Sheep-Simulator.exe"
 	cd /d D:\project\Divide-by-Sheep-Simulator\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Divide-by-Sheep-Simulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

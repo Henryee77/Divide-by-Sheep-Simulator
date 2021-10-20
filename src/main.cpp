@@ -2,10 +2,12 @@
 #include "Simulator.h"
 
 int main(int argc, char** argv) {
-    std::cout << "Hello, world!\n";
+    std::cout << "Start Simulation!\n";
     Simulator Sim;
+   // std::cout << "Create Simulation!\n";
     Sim.display();
-
-    system("pause");
+    Sim.run();
+    Sim.display();
+    //system("pause");
     return 0;
 }

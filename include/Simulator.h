@@ -2,15 +2,17 @@
 #define SIMULATOR_H
 #include <iostream>
 #include <vector>
-#include "Block.h"
+#include "Map.h"
 using namespace std;
 class Simulator{
 public:
     Simulator();
     void display();
+    void run();
     static const int size = 3;
 private:
-    vector<vector<Block>> Map;
+    Map Map;
+    vector<pair<Animal,int>> Quests;
 };
 
 #endif

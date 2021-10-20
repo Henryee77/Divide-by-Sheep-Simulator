@@ -10,53 +10,26 @@ enum Floor{Water, Normal, Bounce, TNT};
 
 class Block{
 public:
+    static const vector<string> AnimalText;
+    static const vector<string> FloorText;
     Block();
     void init(Animal,int,Floor,int);
     vector<string> vecinit();
     void display();
+    void add(Animal, int);
+    void clear();
+    Animal GetAnimalType() const { return animalType;}
+    int GetAnimalNum() const { return animalNum;}
+    Floor GetFloorType() const { return floorType;}
+    int GetFloorNum() const { return floorNum;}
+
 private:
-    static const vector<string> AnimalText;
-    static const vector<string> FloorText;
     Animal animalType;
     int animalNum;
     Floor floorType;
     int floorNum;
 
-    Animal GetAnimalType() const {
-        return animalType;
-    }
-
-    void SetAnimalType(Animal animalType) {
-        animalType = animalType;
-    }
-
-    int GetAnimalNum() const {
-        return animalNum;
-    }
-
-    void SetAnimalNum(int animalNum) {
-        animalNum = animalNum;
-    }
-
-    Floor GetFloorType() const {
-        return floorType;
-    }
-
-    void SetFloorType(Floor floorType) {
-        floorType = floorType;
-    }
-
-    int GetFloorNum() const {
-        return floorNum;
-    }
-
-    void SetFloorNum(int floorNum) {
-        floorNum = floorNum;
-    }
-
 
 };
-//const vector<string> Block::AnimalText({"Empty", "Sheep", "Wolf"});
-//const vector<string> Block::FloorText({"Water", "Normal", "Bounce", "TNT"});
 
 #endif

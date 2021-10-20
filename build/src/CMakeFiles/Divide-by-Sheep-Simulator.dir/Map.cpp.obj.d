@@ -1,6 +1,7 @@
-src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: \
- D:\project\Divide-by-Sheep-Simulator\src\Simulator.cpp \
- d:\project\divide-by-sheep-simulator\include\simulator.h \
+src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj: \
+ D:\project\Divide-by-Sheep-Simulator\src\Map.cpp \
+ d:\project\divide-by-sheep-simulator\include\map.h \
+ d:\project\divide-by-sheep-simulator\include\Block.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\os_defines.h \
@@ -111,6 +112,4 @@ src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
- c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
- d:\project\divide-by-sheep-simulator\include\Map.h \
- d:\project\divide-by-sheep-simulator\include\Block.h
+ c:\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc

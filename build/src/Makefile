@@ -565,6 +565,30 @@ Block.cpp.s:
 	cd /d D:\project\Divide-by-Sheep-Simulator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Divide-by-Sheep-Simulator.dir\build.make src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.s
 .PHONY : Block.cpp.s
 
+Map.obj: Map.cpp.obj
+.PHONY : Map.obj
+
+# target to build an object file
+Map.cpp.obj:
+	cd /d D:\project\Divide-by-Sheep-Simulator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Divide-by-Sheep-Simulator.dir\build.make src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj
+.PHONY : Map.cpp.obj
+
+Map.i: Map.cpp.i
+.PHONY : Map.i
+
+# target to preprocess a source file
+Map.cpp.i:
+	cd /d D:\project\Divide-by-Sheep-Simulator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Divide-by-Sheep-Simulator.dir\build.make src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.i
+.PHONY : Map.cpp.i
+
+Map.s: Map.cpp.s
+.PHONY : Map.s
+
+# target to generate assembly for a file
+Map.cpp.s:
+	cd /d D:\project\Divide-by-Sheep-Simulator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\Divide-by-Sheep-Simulator.dir\build.make src/CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.s
+.PHONY : Map.cpp.s
+
 Simulator.obj: Simulator.cpp.obj
 .PHONY : Simulator.obj
 
@@ -655,6 +679,9 @@ help:
 	@echo ... Block.obj
 	@echo ... Block.i
 	@echo ... Block.s
+	@echo ... Map.obj
+	@echo ... Map.i
+	@echo ... Map.s
 	@echo ... Simulator.obj
 	@echo ... Simulator.i
 	@echo ... Simulator.s
