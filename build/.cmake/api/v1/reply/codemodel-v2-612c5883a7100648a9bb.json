@@ -1,0 +1,335 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Divide-by-Sheep-Simulator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Continuous::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Continuous-Debug-d31878cc9162c714fdb7.json",
+					"name" : "Continuous",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousBuild-Debug-3a29d475f6a2731cfe1c.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousConfigure-Debug-1e9cf3b020277b72bc68.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousCoverage-Debug-5d167bfaf954fbfc5609.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-b6d11499570fd04ebcca.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousStart-Debug-fcf00126610fbcf5e5f4.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousSubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousSubmit-Debug-a7ba53946de77f1455da.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousTest-Debug-6063995bd51701335e82.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ContinuousUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ContinuousUpdate-Debug-fb2f7817afcd01e361f6.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Divide-by-Sheep-Simulator::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Divide-by-Sheep-Simulator-Debug-3191ca79fd27d7d87312.json",
+					"name" : "Divide-by-Sheep-Simulator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Experimental::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Experimental-Debug-13d555139c370b278288.json",
+					"name" : "Experimental",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalBuild-Debug-3d2783079e18f427f3cc.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-36c3d86a7b54b471acb4.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-1f351ad73ab10f839140.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-222123ac649f5b496bfe.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalStart-Debug-e479ad7d55d25be5951c.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalSubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-73014e2f0ff21b734eca.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalTest-Debug-b47033d849bb06c9d626.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ExperimentalUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-4e88ae3eb6fbe2e42739.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Nightly::@145eef247bfb46b6828c",
+					"jsonFile" : "target-Nightly-Debug-c24f6732c932e3607ea0.json",
+					"name" : "Nightly",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyBuild::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyBuild-Debug-2bee93ac53b3f2bf6420.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyConfigure::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyConfigure-Debug-b4eff7fcc5e50123bfc7.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyCoverage::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyCoverage-Debug-23afad4b449933b9bb97.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyMemCheck-Debug-a924d1570df41e372a5c.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyMemoryCheck::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-e64f0454c03772ae0194.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyStart::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyStart-Debug-5fa7e84e4ca37bbc9bc2.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlySubmit::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlySubmit-Debug-4f83e58f22f9a6e758c3.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyTest::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyTest-Debug-d2628166c47d1e2b110b.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "NightlyUpdate::@145eef247bfb46b6828c",
+					"jsonFile" : "target-NightlyUpdate-Debug-2dd2b018e8e102078bd6.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/project/Divide-by-Sheep-Simulator/build",
+		"source" : "D:/project/Divide-by-Sheep-Simulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
