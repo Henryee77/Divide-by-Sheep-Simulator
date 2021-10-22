@@ -29,6 +29,20 @@ void Map::move(int src, int dest){
     }
 }
 
+string Map::generateHash(){
+    string res = "";
+    for(auto& row : arr){
+        for(auto& block : row){
+            res += block.generateHash();
+        }
+    }
+    return res;
+}
+
+Block Map::getBlock(int i, int j){
+    return arr[i][j];
+}
+
 void Map::display(){
     for(int i=0 ; i<arr.size() ; i++){
         for(int j=0 ; j<arr[0].size() ; j++){

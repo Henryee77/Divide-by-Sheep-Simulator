@@ -24,6 +24,12 @@ void Block::add(Animal a, int num){
     }
 }
 
+string Block::generateHash(){
+    string res = "";
+    res += to_string(animalNum) + to_string(animalType) + to_string(floorNum) + to_string(floorType);
+    return res;
+}
+
 void Block::clear(){
     animalType = Empty;
     animalNum = 0;

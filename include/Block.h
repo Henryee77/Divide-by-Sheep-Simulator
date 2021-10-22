@@ -18,6 +18,7 @@ public:
     void display();
     void add(Animal, int);
     void clear();
+    string generateHash();
     Animal GetAnimalType() const { return animalType;}
     int GetAnimalNum() const { return animalNum;}
     Floor GetFloorType() const { return floorType;}

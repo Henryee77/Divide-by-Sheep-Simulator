@@ -12,6 +12,7 @@ void Simulator::run(){
     Map.move(3,2);           // 1 2 3
     Map.move(6,5);           // 4 5 6
     Map.move(5,2);           // 7 8 9
+    cout<<Map.generateHash()<<endl;
 } 
 
 void Simulator::display(){

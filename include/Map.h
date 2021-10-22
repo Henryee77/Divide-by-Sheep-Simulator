@@ -10,6 +10,8 @@ public:
     Map(int);
     void display();
     void move(int,int);
+    Block getBlock(int,int);
+    string generateHash();
 private:
     vector<vector<Block>> arr;
     int mapSize;
