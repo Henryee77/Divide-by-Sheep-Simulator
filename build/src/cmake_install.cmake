@@ -1,4 +1,4 @@
-# Install script for directory: D:/project/Divide-by-Sheep-Simulator/src
+# Install script for directory: E:/henry/Divide-by-Sheep-Simulator/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

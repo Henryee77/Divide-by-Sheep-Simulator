@@ -1,22 +1,27 @@
 [
 {
-  "directory": "D:/project/Divide-by-Sheep-Simulator/build/src",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Block.cpp.obj -c D:\\project\\Divide-by-Sheep-Simulator\\src\\Block.cpp",
-  "file": "D:/project/Divide-by-Sheep-Simulator/src/Block.cpp"
+  "directory": "E:/henry/Divide-by-Sheep-Simulator/build/src",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Block.cpp.obj -c E:\\henry\\Divide-by-Sheep-Simulator\\src\\Block.cpp",
+  "file": "E:/henry/Divide-by-Sheep-Simulator/src/Block.cpp"
 },
 {
-  "directory": "D:/project/Divide-by-Sheep-Simulator/build/src",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Map.cpp.obj -c D:\\project\\Divide-by-Sheep-Simulator\\src\\Map.cpp",
-  "file": "D:/project/Divide-by-Sheep-Simulator/src/Map.cpp"
+  "directory": "E:/henry/Divide-by-Sheep-Simulator/build/src",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\GameMap.cpp.obj -c E:\\henry\\Divide-by-Sheep-Simulator\\src\\GameMap.cpp",
+  "file": "E:/henry/Divide-by-Sheep-Simulator/src/GameMap.cpp"
 },
 {
-  "directory": "D:/project/Divide-by-Sheep-Simulator/build/src",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Simulator.cpp.obj -c D:\\project\\Divide-by-Sheep-Simulator\\src\\Simulator.cpp",
-  "file": "D:/project/Divide-by-Sheep-Simulator/src/Simulator.cpp"
+  "directory": "E:/henry/Divide-by-Sheep-Simulator/build/src",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Quest.cpp.obj -c E:\\henry\\Divide-by-Sheep-Simulator\\src\\Quest.cpp",
+  "file": "E:/henry/Divide-by-Sheep-Simulator/src/Quest.cpp"
 },
 {
-  "directory": "D:/project/Divide-by-Sheep-Simulator/build/src",
-  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\main.cpp.obj -c D:\\project\\Divide-by-Sheep-Simulator\\src\\main.cpp",
-  "file": "D:/project/Divide-by-Sheep-Simulator/src/main.cpp"
+  "directory": "E:/henry/Divide-by-Sheep-Simulator/build/src",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\Simulator.cpp.obj -c E:\\henry\\Divide-by-Sheep-Simulator\\src\\Simulator.cpp",
+  "file": "E:/henry/Divide-by-Sheep-Simulator/src/Simulator.cpp"
+},
+{
+  "directory": "E:/henry/Divide-by-Sheep-Simulator/build/src",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/Divide-by-Sheep-Simulator.dir/includes_CXX.rsp -g -o CMakeFiles\\Divide-by-Sheep-Simulator.dir\\main.cpp.obj -c E:\\henry\\Divide-by-Sheep-Simulator\\src\\main.cpp",
+  "file": "E:/henry/Divide-by-Sheep-Simulator/src/main.cpp"
 }
 ]

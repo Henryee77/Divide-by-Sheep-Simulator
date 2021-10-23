@@ -1,19 +1,19 @@
-#include "Map.h"
+#include "GameMap.h"
 
-Map::Map() : Map(3){
+GameMap::GameMap() : GameMap(3){
 
 }
 
-Map::Map(int size) : arr(size, vector<Block>(size,Block())){
+GameMap::GameMap(int size) : arr(size, vector<Block>(size,Block())){
     //cout<<"Map constructor\n";
     mapSize = size;
-    arr[0][0].init((Animal)0, 1, (Floor)1, 5); arr[0][1].init((Animal)1, 1, (Floor)1, 5); arr[0][2].init((Animal)1, 1, (Floor)1, 5);
-    arr[1][0].init((Animal)0, 1, (Floor)1, 5); arr[1][1].init((Animal)0, 1, (Floor)0, 5); arr[1][2].init((Animal)1, 1, (Floor)1, 5);
+    arr[0][0].init((Animal)0, 1, (Floor)1, 5); arr[0][1].init((Animal)1, 1, (Floor)1, 5); arr[0][2].init((Animal)0, 1, (Floor)1, 5);
+    arr[1][0].init((Animal)0, 1, (Floor)1, 5); arr[1][1].init((Animal)0, 1, (Floor)0, 5); arr[1][2].init((Animal)0, 1, (Floor)1, 5);
     arr[2][0].init((Animal)0, 1, (Floor)1, 5); arr[2][1].init((Animal)0, 1, (Floor)1, 5); arr[2][2].init((Animal)1, 1, (Floor)1, 5);
     //cout<<"end map construct\n";
 }
 
-void Map::move(int src, int dest){
+void GameMap::move(int src, int dest){
     //pass in src and dest are in range[1,9];
     src--; dest--;
     int srcRow = src/mapSize, srcCol = src%mapSize, destRow = dest/mapSize, destCol = dest%mapSize;
@@ -29,7 +29,7 @@ void Map::move(int src, int dest){
     }
 }
 
-string Map::generateHash(){
+string GameMap::generateHash(){
     string res = "";
     for(auto& row : arr){
         for(auto& block : row){
@@ -39,11 +39,11 @@ string Map::generateHash(){
     return res;
 }
 
-Block Map::getBlock(int i, int j){
+Block GameMap::getBlock(int i, int j){
     return arr[i][j];
 }
 
-void Map::display(){
+void GameMap::display(){
     for(int i=0 ; i<arr.size() ; i++){
         for(int j=0 ; j<arr[0].size() ; j++){
             arr[i][j].display();

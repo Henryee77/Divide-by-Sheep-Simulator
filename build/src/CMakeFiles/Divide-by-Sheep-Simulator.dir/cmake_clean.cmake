@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.obj"
   "CMakeFiles/Divide-by-Sheep-Simulator.dir/Block.cpp.obj.d"
-  "CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj"
-  "CMakeFiles/Divide-by-Sheep-Simulator.dir/Map.cpp.obj.d"
+  "CMakeFiles/Divide-by-Sheep-Simulator.dir/GameMap.cpp.obj"
+  "CMakeFiles/Divide-by-Sheep-Simulator.dir/GameMap.cpp.obj.d"
+  "CMakeFiles/Divide-by-Sheep-Simulator.dir/Quest.cpp.obj"
+  "CMakeFiles/Divide-by-Sheep-Simulator.dir/Quest.cpp.obj.d"
   "CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj"
   "CMakeFiles/Divide-by-Sheep-Simulator.dir/Simulator.cpp.obj.d"
   "CMakeFiles/Divide-by-Sheep-Simulator.dir/main.cpp.obj"

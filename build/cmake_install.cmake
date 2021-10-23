@@ -1,4 +1,4 @@
-# Install script for directory: D:/project/Divide-by-Sheep-Simulator
+# Install script for directory: E:/henry/Divide-by-Sheep-Simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/project/Divide-by-Sheep-Simulator/build/src/cmake_install.cmake")
+  include("E:/henry/Divide-by-Sheep-Simulator/build/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/project/Divide-by-Sheep-Simulator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/henry/Divide-by-Sheep-Simulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

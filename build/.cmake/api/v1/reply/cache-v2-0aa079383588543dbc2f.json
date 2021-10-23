@@ -95,7 +95,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/project/Divide-by-Sheep-Simulator/build"
+			"value" : "e:/henry/Divide-by-Sheep-Simulator/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -199,10 +199,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/MinGW/bin/mingw32-g++.exe"
 		},
 		{
@@ -343,10 +343,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/MinGW/bin/mingw32-gcc.exe"
 		},
 		{
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/project/Divide-by-Sheep-Simulator"
+			"value" : "E:/henry/Divide-by-Sheep-Simulator"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1611,7 +1611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/project/Divide-by-Sheep-Simulator/build/src"
+			"value" : "E:/henry/Divide-by-Sheep-Simulator/build/src"
 		},
 		{
 			"name" : "Divide-by-Sheep-Simulator_IS_TOP_LEVEL",
@@ -1635,7 +1635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/project/Divide-by-Sheep-Simulator/src"
+			"value" : "E:/henry/Divide-by-Sheep-Simulator/src"
 		},
 		{
 			"name" : "EXECUTABLE_OUTPUT_PATH",
@@ -1767,7 +1767,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/project/Divide-by-Sheep-Simulator/build"
+			"value" : "E:/henry/Divide-by-Sheep-Simulator/build"
 		},
 		{
 			"name" : "Project_IS_TOP_LEVEL",
@@ -1791,7 +1791,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/project/Divide-by-Sheep-Simulator"
+			"value" : "E:/henry/Divide-by-Sheep-Simulator"
 		},
 		{
 			"name" : "SITE",
@@ -1807,7 +1807,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "LAPTOP-RFLE4LMM"
+			"value" : "DESKTOP-J7NJHKA"
 		},
 		{
 			"name" : "SVNCOMMAND",

@@ -2,17 +2,20 @@
 #define SIMULATOR_H
 #include <iostream>
 #include <vector>
-#include "Map.h"
+#include "GameMap.h"
+#include "Quest.h"
 using namespace std;
 class Simulator{
 public:
     Simulator();
     void display();
     void run();
-    static const int size = 3;
+    void test();
+    static const int MapSize = 3;
+    static vector<vector<int>> direc;
 private:
-    Map Map;
-    vector<pair<Animal,int>> Quests;
+    GameMap Map;
+    Quest Quests;
 };
 
 #endif

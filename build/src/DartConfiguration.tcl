@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/project/Divide-by-Sheep-Simulator/src
-BuildDirectory: D:/project/Divide-by-Sheep-Simulator/build/src
+SourceDirectory: E:/henry/Divide-by-Sheep-Simulator/src
+BuildDirectory: E:/henry/Divide-by-Sheep-Simulator/build/src
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LAPTOP-RFLE4LMM
+Site: DESKTOP-J7NJHKA
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/project/Divide-by-Sheep-Simulator/src"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "E:/henry/Divide-by-Sheep-Simulator/src"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

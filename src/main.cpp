@@ -5,9 +5,8 @@ int main(int argc, char** argv) {
     std::cout << "Start Simulation!\n";
     Simulator Sim;
    // std::cout << "Create Simulation!\n";
-    Sim.display();
+    Sim.test();
     Sim.run();
-    Sim.display();
     //system("pause");
     return 0;
 }
